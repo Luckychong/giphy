@@ -17,12 +17,12 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Make your site live on gh-pages
 
 ### JS
-- [ ] Create a working fetch() function inside the click handler
-- [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
-- [ ] Console log the response
+- [x] Create a working fetch() function inside the click handler
+- [x] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC
+- [x] Console log the response
 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 2
 ### JS

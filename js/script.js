@@ -4,7 +4,8 @@
 /* global $ */
 
 $("#search-button").click(function(){
-    fetch("https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=dc6zaTOxFJmzC")
+    var things = $("input").val()
+    fetch("https://api.giphy.com/v1/gifs/search?q="+ things + " &rating=pg&api_key=dc6zaTOxFJmzC")
     .then(function(response){
         return response.json();
     })
